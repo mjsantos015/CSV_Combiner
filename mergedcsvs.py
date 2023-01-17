@@ -5,7 +5,6 @@ import pandas as pd
 
 arguments = str(sys.argv)
 mergedcsvs = pd.DataFrame()
-arguments = ["Desktop/dataset/accessories.csv", "Desktop/dataset/household_cleaners.csv"]
 #add the filename to csv
 for i in arguments[1:][:-1]:
     df = pd.read_csv(i)
